@@ -27,7 +27,7 @@ public class Gamer {
 		if (Game.isOver)
 			return;
 		
-		if (name == "PC")
+		if (name == "PC" ||name == "PC1" || name == "PC2 )
 			autoMove();
 		
 		else {
