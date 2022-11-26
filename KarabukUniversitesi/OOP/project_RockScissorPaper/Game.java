@@ -27,6 +27,7 @@ public class Game {
 			}
 			
 			determiningWinner();
+			if(Gamer.numberOfTrials == 1000) isOver = true;
 			
 		}
 		
